@@ -1,0 +1,81 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Thailand - ค้นพบการเดินทางที่แสนพิเศษ</title>
+    <link rel="stylesheet" href="Travel-website-css.css">
+    <!-- เพิ่ม Font Kanit จาก Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <div class="logo">เที่ยวไทย</div>
+            <div class="nav-links">
+                <a href="#home">หน้าแรก</a>
+                <a href="#destinations">จุดหมาย</a>
+                <a href="#about">เกี่ยวกับเรา</a>
+                <a href="#contact">ติดต่อ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">ค้นพบความมหัศจรรย์แห่งการเดินทาง</h1>
+            <p class="hero-subtitle">เริ่มต้นการผจญภัยของคุณวันนี้</p>
+            <a href="#destinations" class="btn">ค้นหาจุดหมาย</a>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="destinations" id="destinations">
+        <div class="container">
+            <h2 class="section-title">จุดหมายยอดนิยม</h2>
+            <div class="destinations-grid" id="destinationsGrid">
+                <!-- Destinations will be added here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">บริการของเรา</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📍</div>
+                    <h3>จุดหมายที่หลากหลาย</h3>
+                    <p>ค้นพบสถานที่ท่องเที่ยวมากมายทั่วประเทศไทย</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>แผนการเดินทางที่ยืดหยุ่น</h3>
+                    <p>ปรับแต่งแผนการเดินทางให้เหมาะกับคุณ</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>ราคาคุ้มค่า</h3>
+                    <p>ข้อเสนอและโปรโมชั่นพิเศษมากมาย</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">รีวิวจากนักเดินทาง</h2>
+            <div class="reviews-grid" id="reviewsGrid">
+                <!-- Reviews will be added here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <script src="travel-website-js.js"></script>
+</body>
+</html>
